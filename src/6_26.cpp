@@ -4,7 +4,7 @@
 int sum_all(std::initializer_list<int> il)
 {
     int sum = 0;
-    for(auto num : il)
+    for(auto num : il) //因为initializer_list里面都是常量值，所以推测到的auto应该是const int
     {
         sum +=num;
     }
