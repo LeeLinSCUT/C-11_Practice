@@ -35,6 +35,7 @@
         "utility": "cpp",
         "typeinfo": "cpp",
         "forward_list": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "memory": "cpp"
     }
 }
